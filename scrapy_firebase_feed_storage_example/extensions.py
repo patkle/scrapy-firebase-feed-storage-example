@@ -28,7 +28,7 @@ class FirebaseFeedStorage(BlockingFeedStorage):
         self._storage.path = path
 
     def _get_path_from_uri(self, uri) -> None:
-        """Extracts the path to save to from FEED_URI setting"""
+        """Extracts the path to save to from feed uri"""
         return uri.split('//', maxsplit=1)[1]
 
     def _store_in_thread(self, file) -> None:
