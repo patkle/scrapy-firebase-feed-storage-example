@@ -1,0 +1,1 @@
+# scrapy-firebase-feed-storage-example
